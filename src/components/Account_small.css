@@ -1,0 +1,97 @@
+.GW_contain2 {
+    width: 32.625vw;
+    padding: 1rem 1rem 0rem 1rem;
+    border-radius: 0.25rem;
+    background: #FFF;
+    box-shadow: 0px 4px 16px 0px rgba(18, 28, 45, 0.20);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.SVG-Col {
+    width: 2.25rem;
+    height: 2.25rem;
+    background-color: blue;
+    border-radius: 6.25rem;
+    border: 1px solid var(--border-primary-color-border-primary, #0263E0);
+    background: var(--background-primary-color-background-primary, #0263E0);
+}
+
+span {
+    color: var(--text-color-text, #121C2D);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.fl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0rem 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.fl input {
+    border: none;
+    align-items: center;
+    border: none;
+    outline: none;
+    width: 25rem;
+}
+
+.solid {
+    justify-content: flex-start;
+    padding: 0.5rem;
+    border: 0.0625rem solid #8891AA;
+    border-radius: 0.25rem;
+}
+
+.list {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    color: black;
+    padding-top: 0.5rem;
+    flex-wrap: wrap;
+}
+.list li {
+    list-style: none;}
+
+.list /* button */ li a{
+    text-decoration: none;
+    list-style: none;
+
+    padding: 0.25rem 0.5rem;
+    border-radius: 6.25rem;
+    border: 0.0625rem solid var(--border-color-border, #8891AA);
+    background: var(--background-color-background-body, #FFF);
+}
+
+.list li a:hover{
+    color: #030B5D;
+    border: 0.0625rem solid var(--border-color-border, #030B5D);
+    background-color: #CCE4FF;
+}
+.gw-l11 .active {  
+    color: #030B5D;
+    padding: 0.25rem 0.5rem;
+    border-radius: 6.25rem;
+    border: 0.0625rem solid var(--border-color-border, #030B5D);
+    background-color: #CCE4FF;
+    
+}
+.Acon {
+    padding: 1rem;
+    justify-content: flex-start;
+    border-top: 1px solid var(--border-color-border-weaker, #E1E3EA);
+}
+
+.Acon span {
+    font-size: 0.875rem;
+    color: var(--text-color-text-weak, #606B85);
+}
